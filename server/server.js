@@ -26,6 +26,7 @@ app.use(bodyParser.json());
 //routes
 app.use("/api/v1/auth", authRoutes);
 
+
 //rest api
 app.get("/", (req, res) => {
   res.send("<h1>Welcome to ecommerce app</h1>");
