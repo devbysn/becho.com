@@ -14,6 +14,8 @@ dotenv.config();
 //databse config
 connectDB();
 
+console.log(process.env.PORT);
+
 //rest object
 const app = express();
 

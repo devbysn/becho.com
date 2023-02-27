@@ -1,0 +1,24 @@
+{
+  "name": "becho.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ./server && nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbysn/becho.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devbysn/becho.com/issues"
+  },
+  "homepage": "https://github.com/devbysn/becho.com#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
